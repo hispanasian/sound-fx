@@ -1,0 +1,41 @@
+env:
+  es6: true
+  node: true
+  mocha: true
+extends: 'airbnb'
+parserOptions:
+  sourceType: module
+rules:
+  indent:
+    - warn
+    - 2
+    - SwitchCase: 1
+  linebreak-style:
+    - warn
+    - unix
+  quotes:
+    - warn
+    - single
+  semi:
+    - error
+    - always
+  no-array-constructor:
+    - error
+  dot-location:
+    - warn
+    - property
+  no-console:
+    - warn
+  no-unused-vars:
+    - warn
+  newline-per-chained-call:
+    - warn
+  no-tabs:
+    - 0
+  quote-props:
+    - error
+    - always
+  brace-style:
+    - error
+    - allman
+    - allowSingleLine: true

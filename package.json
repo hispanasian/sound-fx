@@ -1,0 +1,35 @@
+{
+  "name": "sound-fx",
+  "engines": {
+    "node": "6.11.2"
+  },
+  "description": "Simple web site that plays sounds on the server.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node 0app.js",
+    "lint": "./node_modules/.bin/eslint . --ext .js --color",
+    "preTest": "npm run lint",
+    "test": "./node_modules/.bin/mocha --recursive --colors --reporter min lib/**/*.spec.js",
+    "test:watch": "./node_modules/.bin/mocha -w --recursive --colors --reporter min lib/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hispanasian/sound-fx.git"
+  },
+  "author": "hispanasian@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.1.0",
+    "mocha": "^3.4.2",
+    "sinon": "^1.17.7"
+  }
+}
