@@ -1,4 +1,3 @@
-const player = require('play-sound')(opts = {});
 const express = require('express');
 const sounds = require('./lib/sounds');
 

@@ -1,4 +1,4 @@
-`# Sound FX
+# Sound FX
 Plays:
 1. Power Attack
 2. Surprise Attack
